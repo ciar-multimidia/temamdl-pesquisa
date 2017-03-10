@@ -90,9 +90,8 @@ if (!empty($html->masonryheading)) {
 ?>
 		<div class="categories-item view fourth-effect">
 			<img src="<?php echo $masonryimage1;?>" alt="">
-			<div class="mask"></div>
 			<div class="categories-item-cont">
-				<h5><a href="<?php echo $html->masonryurl1; ?>"><?php echo $html->masonrytext1; ?></a></h5>
+				<h5><?php echo $html->masonrytext1; ?></h5>
 				<p>
 				    <?php 
         if (!empty($html->masonrysubtext1)) {
@@ -101,6 +100,7 @@ if (!empty($html->masonryheading)) {
         ?>
 				</p>
 			</div>
+			<a href="<?php echo $html->masonryurl1; ?>"></a>
 		</div><!-- END of .categories-item -->
 <?php 
     }
@@ -108,9 +108,9 @@ if (!empty($html->masonryheading)) {
 ?>
 		<div class="categories-item view fourth-effect">
 			<img src="<?php echo $masonryimage2;?>" alt="">
-			<div class="mask"></div>
 			<div class="categories-item-cont">
-				<h5><a href="<?php echo $html->masonryurl2; ?>"><?php echo $html->masonrytext2; ?></a></h5>				<p>
+				<h5><?php echo $html->masonrytext2; ?></h5>
+				<p>
 				    <?php 
         if (!empty($html->masonrysubtext2)) {
                     echo $html->masonrysubtext2;
@@ -118,6 +118,7 @@ if (!empty($html->masonryheading)) {
         ?>
 				</p>
 			</div>
+			<a href="<?php echo $html->masonryurl2; ?>"></a>
 		</div><!-- END of .categories-item -->
 <?php
     }
@@ -125,9 +126,8 @@ if (!empty($html->masonryheading)) {
 ?>
 		<div class="categories-item view fourth-effect">
 			<img src="<?php echo $masonryimage3;?>" alt="">
-			<div class="mask"></div>
 			<div class="categories-item-cont">
-				<h5><a href="<?php echo $html->masonryurl3; ?>"><?php echo $html->masonrytext3; ?></a></h5>
+				<h5><?php echo $html->masonrytext3; ?></h5>
 				<p>
 				    <?php 
         if (!empty($html->masonrysubtext3)) {
@@ -136,6 +136,7 @@ if (!empty($html->masonryheading)) {
         ?>
 				</p>
 			</div>
+			<a href="<?php echo $html->masonryurl3; ?>"></a>
 		</div><!-- END of .categories-item -->
 <?php
     }
@@ -143,9 +144,8 @@ if (!empty($html->masonryheading)) {
 ?>
 		<div class="categories-item view fourth-effect">
 			<img src="<?php echo $masonryimage4;?>" alt="">
-			<div class="mask"></div>
 			<div class="categories-item-cont">
-				<h5><a href="<?php echo $html->masonryurl4; ?>"><?php echo $html->masonrytext4; ?></a></h5>
+				<h5><?php echo $html->masonrytext4; ?></h5>
 				<p>
 				    <?php 
         if (!empty($html->masonrysubtext4)) {
@@ -154,6 +154,7 @@ if (!empty($html->masonryheading)) {
         ?>
 				</p>
 			</div>
+			<a href="<?php echo $html->masonryurl4; ?>"></a>
 		</div><!-- END of .categories-item -->
 <?php
     }
@@ -161,9 +162,8 @@ if (!empty($html->masonryheading)) {
 ?>
 		<div class="categories-item view fourth-effect">
 			<img src="<?php echo $masonryimage5;?>" alt="">
-			<div class="mask"></div>
 			<div class="categories-item-cont">
-				<h5><a href="<?php echo $html->masonryurl5; ?>;"><?php echo $html->masonrytext5; ?></a></h5>
+				<h5><?php echo $html->masonrytext5; ?></h5>
 				<p>
 				    <?php 
         if (!empty($html->masonrysubtext5)) {
@@ -172,6 +172,7 @@ if (!empty($html->masonryheading)) {
         ?>
 				</p>
 			</div>
+			<a href="<?php echo $html->masonryurl5; ?>"></a>
 		</div><!-- END of .categories-item -->
 <?php
     }
@@ -179,9 +180,8 @@ if (!empty($html->masonryheading)) {
 ?>
 		<div class="categories-item view fourth-effect">
 			<img src="<?php echo $masonryimage6;?>" alt="">
-			<div class="mask"></div>
 			<div class="categories-item-cont">
-				<h5><a href="<?php echo $html->masonryurl6; ?>"><?php echo $html->masonrytext6; ?></a></h5>
+				<h5><?php echo $html->masonrytext6; ?></h5>
 				<p>
 				    <?php 
         if (!empty($html->masonrysubtext6)) {
@@ -190,6 +190,7 @@ if (!empty($html->masonryheading)) {
         ?>
 				</p>
 			</div>
+			<a href="<?php echo $html->masonryurl6; ?>"></a>
 		</div><!-- END of .categories-item -->
 <?php
     }
@@ -197,9 +198,8 @@ if (!empty($html->masonryheading)) {
 ?>
 		<div class="categories-item view fourth-effect">
 			<img src="<?php echo $masonryimage7;?>" alt="">
-			<div class="mask"></div>
 			<div class="categories-item-cont">
-				<h5><a href="<?php echo $html->masonryurl7; ?>"><?php echo $html->masonrytext7; ?></a></h5>
+				<h5><?php echo $html->masonrytext7; ?></h5>
 				<p>
 				    <?php 
         if (!empty($html->masonrysubtext7)) {
@@ -208,6 +208,7 @@ if (!empty($html->masonryheading)) {
         ?>
 				</p>
 			</div>
+			<a href="<?php echo $html->masonryurl7; ?>"></a>
 		</div><!-- END of .categories-item -->
 <?php
     }
@@ -215,9 +216,8 @@ if (!empty($html->masonryheading)) {
 ?>
 		<div class="categories-item view fourth-effect">
 			<img src="<?php echo $masonryimage8; ?>" alt="">
-			<div class="mask"></div>
 			<div class="categories-item-cont">
-				<h5><a href="<?php echo $html->masonryurl8; ?>"><?php echo $html->masonrytext8; ?></a></h5>
+				<h5><?php echo $html->masonrytext8; ?></h5>
 				<p>
 				    <?php 
         if (!empty($html->masonrysubtext8)) {
@@ -226,6 +226,7 @@ if (!empty($html->masonryheading)) {
         ?>
 				</p>
 			</div>
+			<a href="<?php echo $html->masonryurl8; ?>"></a>
 		</div><!-- END of .categories-item -->
 <?php
     }

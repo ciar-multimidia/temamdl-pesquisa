@@ -30,8 +30,23 @@
 ?>
 <footer>
 	<?php 
-    echo $OUTPUT->home_link();
-    echo $OUTPUT->login_info();
-    echo $OUTPUT->standard_footer_html();
+    // echo $OUTPUT->home_link();
+    // echo $OUTPUT->login_info();
+    // echo $OUTPUT->standard_footer_html();
     ?>
+
+
+
+    <div class="inforodape">
+        <img src="<?php echo $OUTPUT->pix_url('marca-ciarufg', 'theme_roshnilite'); ?>">
+        <div>
+            Centro Integrado de Aprendizagem em Rede <br>
+            Universidade Federal de Goiás
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="copyright">Tema "Roshnilite" adaptado e customizado por <a href="https://ciar.ufg.br">CIAR - UFG</a></div>
+
 </footer>

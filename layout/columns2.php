@@ -62,6 +62,11 @@ echo $OUTPUT->doctype() ?>
 <?php echo $OUTPUT->standard_top_of_body_html() ?>
 
 <header class="navbar navbar-fixed-top<?php echo $html->navbarclass ?> moodle-has-zindex">
+
+<!-- barra da universidade -->
+<div class="nome-universidade">
+    <p>Universidade Federal de Goiás <img src="<?php echo $OUTPUT->pix_url('marca-ufg', 'theme_roshnilite'); ?>" alt=""></p>
+</div>
     <div class="inner-header">
         <nav class="navbar-inner">
             <div class="container">

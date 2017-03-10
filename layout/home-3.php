@@ -58,6 +58,11 @@ echo $OUTPUT->doctype()
 		<?php echo $OUTPUT->standard_top_of_body_html() ?>
 		<header id="header">
 				<div class="main-menu header3">
+
+					<!-- barra da universidade -->
+					<div class="nome-universidade">
+						<p>Universidade Federal de Goiás <img src="<?php echo $OUTPUT->pix_url('marca-ufg', 'theme_roshnilite'); ?>" alt=""></p>
+					</div>
 					<div class="container">
 						<a href="<?php echo $CFG->wwwroot;?>" class="inner-logo logo-text"></a>
                         <?php echo $OUTPUT->user_menu(); ?>
@@ -66,7 +71,10 @@ echo $OUTPUT->doctype()
                     	</div>
 					</div><!-- END of .container -->
 				</div><!-- END of main-menu -->
-				<div class="only">
+
+				<!-- Menu de línguas removido -->
+
+				<!-- <div class="only">
 					<div class="container">
 						<div class="navbar">
 							<div class="navbar-inner">
@@ -77,13 +85,17 @@ echo $OUTPUT->doctype()
 										<span class="icon-bar"></span>
 									</button>
 									<div class="nav-collapse collapse">
-										<?php echo $OUTPUT->custom_menu();?>
-									</div><!--/.nav-collapse -->
+										<?php /* echo $OUTPUT->custom_menu(); */ ?>
+									</div>
 								</div>
-							</div><!-- END of .navbar-inner -->
-						</div><!-- END of .navbar -->
+							</div>
+						</div>
 					</div>
-				</div>
+				</div> -->
+
+
+
+
 				<?php if (!isloggedin()) { ?>
 					<div class="header3-login">
 						<div class="container">
@@ -92,6 +104,11 @@ echo $OUTPUT->doctype()
 								<input type="password" name="password" placeholder="Password:">
 								<input type="submit" value="LOG IN">
 							</form>
+
+						<!-- <div class="recuperasenha"><a href="https://ufgnet.ufg.br">Recuperar senha de login único</a></div> -->
+
+						<div class="recuperasenha"><a href="<?php echo $CFG->wwwroot; ?>/login/forgot_password.php">Recuperar senha</a></div>
+
 						</div>
 					</div>
 	            <?php 
@@ -102,27 +119,16 @@ echo $OUTPUT->doctype()
             <?php	
             	require($CFG->dirroot.'/theme/roshnilite/layout/home/firstslider.php');
                 require($CFG->dirroot.'/theme/roshnilite/layout/home/aboutsite.php');
-                require($CFG->dirroot.'/theme/roshnilite/layout/home/availablecourse.php');
+                // require($CFG->dirroot.'/theme/roshnilite/layout/home/availablecourse.php');
             ?>
-            	<?php if ($enablemoodlemaincontent == 1) { ?>
-                <div class="container">
-                	<div class="moodlecorecontent">
-                		<?php echo $OUTPUT->main_content(); 
-                		if ($PAGE->user_is_editing()) { ?>
-                			<a class = "turnedit btn-1" href="<?php echo $CFG->wwwroot.'/course/view.php?id=1&sesskey='.sesskey().'&edit=off';?>"><?php echo get_string('turneditingoff');?></a>
-                		<?php } else { ?>
-                			<a class = "turnedit btn-1" href="<?php echo $CFG->wwwroot.'/course/view.php?id=1&sesskey='.sesskey().'&edit=on';?>"><?php echo get_string('turneditingoff');?></a>
-                		<?php }
-                		?>
-                	</div>
-                </div>
-                <?php } else { ?>
-                	<div class="maincontent"><?php echo $OUTPUT->main_content();?></div>
-                <?php } ?>
+            	
+               
+        	<div class="maincontent"><?php echo $OUTPUT->main_content();?></div>
+                
             <?php
             	require($CFG->dirroot.'/theme/roshnilite/layout/home/categories.php');
-                require($CFG->dirroot.'/theme/roshnilite/layout/home/contacts.php');
-                require($CFG->dirroot.'/theme/roshnilite/layout/home/social_network.php');
+                // require($CFG->dirroot.'/theme/roshnilite/layout/home/contacts.php');
+                // require($CFG->dirroot.'/theme/roshnilite/layout/home/social_network.php');
             ?>
 		</div><!-- END of .content -->
 		<?php
