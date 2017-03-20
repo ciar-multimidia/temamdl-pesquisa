@@ -66,13 +66,15 @@ echo $OUTPUT->doctype()
 					<div class="container">
 						<a href="<?php echo $CFG->wwwroot;?>" class="inner-logo logo-text"></a>
                         <?php echo $OUTPUT->user_menu(); ?>
+                        <?php if ($CFG->version > 2016052304) { ?>
                         <div class="messagesnotifications">
     						<?php echo $OUTPUT->navbar_plugin_output(); ?>
                     	</div>
+                    	<?php } ?>
 					</div><!-- END of .container -->
 				</div><!-- END of main-menu -->
 
-				<!-- Menu de línguas removido -->
+				<!-- Menu de Línguas removido -->
 
 				<!-- <div class="only">
 					<div class="container">
@@ -92,8 +94,6 @@ echo $OUTPUT->doctype()
 						</div>
 					</div>
 				</div> -->
-
-
 
 
 				<?php if (!isloggedin()) { ?>

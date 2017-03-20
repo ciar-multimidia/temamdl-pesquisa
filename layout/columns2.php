@@ -62,7 +62,6 @@ echo $OUTPUT->doctype() ?>
 <?php echo $OUTPUT->standard_top_of_body_html() ?>
 
 <header class="navbar navbar-fixed-top<?php echo $html->navbarclass ?> moodle-has-zindex">
-
 <!-- barra da universidade -->
 <div class="nome-universidade">
     <p>Universidade Federal de Goiás <img src="<?php echo $OUTPUT->pix_url('marca-ufg', 'theme_roshnilite'); ?>" alt=""></p>
@@ -73,9 +72,11 @@ echo $OUTPUT->doctype() ?>
                 <a class="inner-logo logo-text" href="<?php echo $CFG->wwwroot;?>"></a>
                   <?php echo $OUTPUT->lang_menu();
                     echo $OUTPUT->user_menu(); ?>
+                    <?php if ($CFG->version > 2016052304) { ?>
                     <div class="messagesnotifications">
                         <?php echo $OUTPUT->navbar_plugin_output(); ?>
                     </div>
+                  <?php } ?>
             </div>
         </nav>
     </div>

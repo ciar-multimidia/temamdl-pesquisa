@@ -48,5 +48,4 @@
     <hr>
 
     <div class="copyright">Tema "Roshnilite" adaptado e customizado por <a href="https://ciar.ufg.br">CIAR - UFG</a></div>
-
 </footer>
