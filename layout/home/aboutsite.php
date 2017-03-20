@@ -67,11 +67,11 @@ if (!empty($html->aboutsiteheading)) {
 <div class="about-item">
 <div class="about-item-img-wr">
 <div class="about-item-img">
-<a href="<?php echo $html->aboutsiteurl1; ?>"><img alt="" src="<?php echo $aboutsiteimage1; ?>"></i></a>
+<a href="<?php echo $html->aboutsiteurl1; ?>"><img alt="" src="<?php echo $aboutsiteimage1; ?>"></a>
 </div>
 </div>
 <h5><a href="<?php echo $html->aboutsiteurl1; ?>"><?php echo $html->aboutsitename1; ?></a></h5>
-<p><?php echo $html->aboutsitetext1; ?></p>
+<?php echo $html->aboutsitetext1; ?>
 </div><!-- END of .about-item -->
 <?php
     }
@@ -84,7 +84,7 @@ if (!empty($html->aboutsiteheading)) {
 </div>
 </div>
 <h5><a href="<?php echo $html->aboutsiteurl2; ?>"><?php echo $html->aboutsitename2; ?></a></h5>
-<p><?php echo $html->aboutsitetext2; ?></p>
+<?php echo $html->aboutsitetext2; ?>
 </div><!-- END of .about-item -->
 <?php
     }
@@ -97,7 +97,7 @@ if (!empty($html->aboutsiteheading)) {
 </div>
 </div>
 <h5><a href="<?php echo $html->aboutsiteurl3; ?>"><?php echo $html->aboutsitename3; ?></a></h5>
-<p><?php echo $html->aboutsitetext3; ?></p>
+<?php echo $html->aboutsitetext3; ?>
 </div><!-- END of .about-item -->
 <?php
     }
@@ -110,7 +110,7 @@ if (!empty($html->aboutsiteheading)) {
 </div>
 </div>
 <h5><a href="<?php echo $html->aboutsiteurl4; ?>"><?php echo $html->aboutsitename4; ?></a></h5>
-<p><?php echo $html->aboutsitetext4; ?></p>
+<?php echo $html->aboutsitetext4; ?>
 </div><!-- END of .about-item -->
 <?php 
     }
